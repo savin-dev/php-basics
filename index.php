@@ -11,9 +11,9 @@
     <button>Submit</button>
 </form>
 <?php
-    echo "Hello world.";
+    // This is a single line comment.
     $name = $_GET['person'];
-    echo $name." Niduwara Fonseka.";
+    echo strlen($name." Niduwara Fonseka.");
 ?>
 </body>
 </html>

@@ -6,9 +6,13 @@
     <title>First page</title>
 </head>
 <body>
+<form method="GET">
+    <input type="text" name="person">
+    <button>Submit</button>
+</form>
 <?php
     echo "Hello world.";
-    $name = "Savin";
+    $name = $_GET['person'];
     echo $name." Niduwara Fonseka.";
 ?>
 </body>

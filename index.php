@@ -14,9 +14,9 @@
         <select name="operator" id="">
             <option value="None">None</option>
             <option value="Add">Add</option>
-            <option value="Subtraction">Substraction</option>○○○
+            <option value="Subtraction">Subtraction</option>○○○
             <option value="Multiplication">Multiplication</option>
-            <option value="Device">Devide</option>
+            <option value="Device">Divide</option>
         </select>
     </label>
     <br/>
